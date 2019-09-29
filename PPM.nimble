@@ -8,6 +8,3 @@ srcDir        = "src"
 bin           = @["PPM"]
 binDir        = "/build"
 backend       = "cpp"
-
-task test,"test":
-    exec "nim c -r tests/testPPM"
