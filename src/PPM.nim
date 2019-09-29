@@ -1,4 +1,4 @@
-import strformat,PPM/pixel
+import strformat,pixel
 type PPM*[W:static[int],H:static[int],D:static[int]] = ref object
     colorDepth*:int
     width*:int
