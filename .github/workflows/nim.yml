@@ -1,0 +1,17 @@
+name: Nim
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    container:
+      image: nimlang/nim:0.16.0
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build
+      run: nimble build
+    - name: Run tests
+      run: nimble test
