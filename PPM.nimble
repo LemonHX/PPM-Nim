@@ -5,6 +5,4 @@ author        = "lemonhx"
 description   = "lib for ppm image"
 license       = "LXXSDT-MIT"
 srcDir        = "src"
-bin           = @["PPM"]
-binDir        = "/build"
 backend       = "cpp"

@@ -1,5 +1,5 @@
 import unittest,strformat
-import PPM,pixel
+import PPM/PPM,PPM/pixel
 
 suite "testing PPM":
   setup:
